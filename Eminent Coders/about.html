@@ -1,0 +1,614 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Eminent Coders</title>
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"/>
+	<!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/brands.min.css"/> -->
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+
+</head>
+<body>
+	<div class="wrapper">
+		<header class="header">
+			<div class="container">
+				<div class="header-inner d-flex align-items-center">
+					<div class="logo">
+						<a href="index.html">
+							<img src="images/eminent-coder_logo.svg">
+						</a>
+					</div>
+					<div class="header-menus ms-auto" id="menu">
+						<ul class="d-flex align-items-center" >
+							<li><a href="about.html">About Us</a></li>
+							<li id="Service"><a href="javascript:;" onclick="serviceMenu()">Services</a>
+								<div class="has-dropdown" id="has-dropdown">
+									<div class="container">
+										<div class="row">
+											<div class="has-dropdown-list has-frontend col-md-3">
+												<span>FRONTEND FRAMEWORK</span>
+												<ul>
+													<li><a href="javascript:;"><span><i class="fa-brands fa-html5"></i></span>HTML Development</a></li>
+													<li><a href="javascript:;"><span><i class="fa-brands fa-html5"></i></span>UI/UX Design and Redesign</a></li>
+													<li><a href="javascript:;"><span><i class="fa-brands fa-html5"></i></span>React JS Development</a></li>
+													<li><a href="javascript:;"><span><i class="fa-brands fa-html5"></i></span>Vue JS Development</a></li>
+												</ul>
+											</div>
+											<div class="has-dropdown-list has-language col-md-3">
+												<span>LANGUAGE FRAMEWORK</span>
+												<ul>
+													<li><a href="javascript:;"><span><i class="fa-brands fa-html5"></i></span>PHP Development</a></li>
+													<li><a href="javascript:;"><span><i class="fa-brands fa-html5"></i></span>Wordpress Design and Redesign</a></li>
+													<li><a href="javascript:;"><span><i class="fa-brands fa-html5"></i></span>Magento JS Development</a></li>
+													<li><a href="javascript:;"><span><i class="fa-brands fa-html5"></i></span>Node JS Development</a></li>
+												</ul>
+											</div>
+											<div class="has-dropdown-list has-mobile col-md-3">
+												<span>MOBILE FRAMEWORK</span>
+												<ul>
+													<li><a href="javascript:;"><span><i class="fa-brands fa-html5"></i></span>Android App Development</a></li>
+													<li><a href="javascript:;"><span><i class="fa-brands fa-html5"></i></span>IOS App Development</a></li>
+													<li><a href="javascript:;"><span><i class="fa-brands fa-html5"></i></span>React Native Development	</a></li>
+													<li><a href="javascript:;"><span><i class="fa-brands fa-html5"></i></span>Fultter Mobile Development</a></li>
+												</ul>
+											</div>
+											<div class="has-dropdown-list dropdown-img col-md-3">
+												<div class="has-close-btn" onclick="serviceMenu()"></div>
+												<img src="images/has-dropdown.svg">
+											</div>
+										</div>	
+									</div>
+								</div>
+							</li>
+							<li><a href="coder.html">Hire Coders</a></li>
+							<li><a href="Portfolio.html">Portfolio</a></li>
+							<li><a href="blog.html">Blog</a></li>
+							<li><a href="contact.html">Contact Us</a></li>
+						</ul>
+					</div>
+					<div class="mobile-toggle ms-auto" onclick="toggleMenu()">
+						<span></span>
+						<span></span>
+						<span></span>
+					</div>
+				</div>
+			</div>
+		</header>
+
+		<section class="content">
+			<div class="main-banner about-banner">
+				<div class="container">
+					<div class="banner">
+						<div class="banner-text row">
+							<div class="about-left col-md-6">
+								<h1 class="h1">ABOUT US</h1>
+								<div class="line"></div>
+								<div class="about-content">
+								<p>In 2015, Eminent Coders embarked on a journey in the realm of technological innovation. With the help of our dedicated and dynamic team of website designers, mobile app developers, and highly experienced programmers, our roots delve deeper, nurturing a culture of growth and excellence by providing innovative online solutions for clients worldwide.</p>
+								<p>If you are seeking top-notch website and app design and development service providers, your search ends here – we are the perfect pick for you. Our expertise resonates in the resounding success stories of the brands we have collaborated with. These stories serve as evidence of the excellence of the work delivered by the team of Eminent Coders.</p>
+							</div>
+							</div>
+							<div class="about-right col-md-6">
+								<div class="about-banner-image d-flex flex-wrap">
+									<div class="image-box-circle">
+										<img src="images/about-banner-1.jpg">
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="banner-shape-square">
+						<img src="images/banner-shape-square.svg">
+					</div>
+					<div class="banner-shape-round">
+						<img src="images/banner-shape-circle.svg">
+					</div>
+					<div class="mouse text-center">
+						<a href="#eminent-text"><img src="images/mouse.svg"></a>
+					</div>
+				</div>
+			</div>
+
+			<div class="eminent-text" id="eminent-text">
+				<div class="container">
+					<img src="images/eminent.svg">
+				</div>	
+			</div>
+
+			<div class="goals">
+				<div class="container">
+					<div class="row">
+						<div class="goals-left col-md-6">
+							<div class="goals-left-inner">
+								<div class="goals-image-circle">
+									<div class="goals-image">
+										<img src="images/about-goals-img.jpg">
+									</div>
+								</div>
+							</div>	
+						</div>
+						<div class="col-md-6 goals-and-mission col-sm-12">
+							<div class="goals-text">
+								<h1 class="h1">Goals and Missions</h1>
+								<div class="line"></div>
+								<div class="our-goals">
+									<div class="goals-btn d-flex align-items-center justify-content-between " onclick="goals()">
+										<a href="javascript:;">Our Goals</a>
+										<span id="goal-plus"><i class="fa-solid fa-plus"></i></span>
+										<span id="goal-minus"><i class="fa-solid fa-minus"></i></span>
+									</div>
+									<div class="goals-text" id="goals-text">
+										<p>Our goals are strategically aligned to deliver exceptional impacts and achieve high visibility in search engines. We are dedicated to designing and developing compelling, user-centric websites and applications that cater to the unique requirements of our clients, helping them enhance user experiences, drive substantial engagement, and boost conversions.</p>
+										<p>We prioritize efficient navigation, fast loading speeds, and intuitive interfaces by incorporating responsive design implementation, optimized coding, the latest SEO practices, user-centric design principles, and cutting-edge technologies. Eminent Coders aims to lead as an industry leader, recognized for our exceptional creativity and technical excellence.</p>
+									</div>
+								</div>
+								<div class="our-goals">
+									<div class="goals-btn d-flex align-items-center justify-content-between " onclick="mission()">
+										<a href="javascript:;">Our Mission</a>
+										<span id="mission-plus"><i class="fa-solid fa-plus"></i></span>
+										<span id="mission-minus"><i class="fa-solid fa-minus"></i></span>
+									</div>
+									<div class="mission-text" id="mission-text">
+										<p>Eminent Coders are committed to staying abreast of the latest business strategies and emerging trends to provide specialized web-based solutions that exceed our client’s expectations.</p>
+										<p>Our mission is to foster and cultivate long-term relationships by providing outstanding services. We commit ourselves to:</p>
+										<ul>
+											<li>Deliver customized website and mobile application development solutions to our clients, aligned with their unique needs.</li>
+											<li>Develop adaptable and industry-specific proposals tailored to each client.</li>
+											<li>Foster a commitment to being well-versed in the latest features and designs, constantly acquiring new skills to deliver compelling web design and app development that effectively meets market demands.</li>
+											<li>Create a collaborative environment that supports innovation, paving the way for creative and cutting-edge concepts for our client’s projects.</li>
+											<li>Prioritize transparent and effective communication throughout every project phase to ensure clients are informed and involved.</li>
+										</ul>
+										<p>By clinging to these parameters, Eminent Coders position as a leading web design and app development company committed to delivering excellent solutions and forging long-lasting client relationships.</p>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="goals our-Comprehensive">
+				<div class="container">
+					<div class="row">
+						<div class="col-md-6 our-Comprehensive-inner">
+							<div class="goals-text">
+								<h1 class="h2">Our Comprehensive Web Design and Development Solution</h1>
+								<div class="line"></div>
+								<div class="comprehensive">
+									<p>Our dedicated team is renowned for transforming your ideas into captivating online experiences. Our highly experienced designers and developers cover every phase from conceptualization to deployment to create visually stunning websites and applications to deliver seamless user experiences. Our experts are well-versed in providing elegant and responsive design integrated with interactive features and functionalities that align with your unique project requirements. Boost your online presence with our extensive web design and development services incorporating the latest trends, advanced technologies, and a user-centered approach under one roof.</p>
+								</div>
+							</div>
+						</div>
+						<div class="goals-left col-md-6">
+							<div class="goals-left-inner">
+								<div class="goals-image-circle">
+									<div class="goals-image">
+										<img src="images/about-new.png">
+									</div>
+								</div>
+							</div>	
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<div class="meet-team">
+				<div class="container">
+					<div class="meet-team-top">
+						<h1 class="h2">Meet The Team</h1>
+						<div class="line"></div>
+						<div class="team-para">
+							<p>When we embarked on the journey of Eminent Coders, we were fortunate to be accompanied by confident and reliable individuals who supported, and contributed to our evolution from aspiring entrepreneurs. We possess a profound understanding of the challenges associated with commencing a new venture, having witnessed the excitement of gradually skyrocketing in the direction of boundless horizons. This expedition has forged us into an impeccable team for addressing and overcoming the potential uncertainties and inquiries we might come across.</p>
+						</div>
+					</div>
+					<div class="team-details">
+						<div class="team-list">
+							<div class="row">
+								<div class="team-box col-lg-3 col-md-6 col-sm-12">
+									<div class="imagebox">
+										<div class="team-background">
+											<img src="images/icon_overlay.svg">
+										</div>
+										<div class="team-photo">
+											<img src="images/hardik.png">
+										</div>
+									</div>	
+									<div class="candidate-name">
+										<h2>Hardik Jethva</h2>
+										<div class="candidate-position">
+											<p>Founder & CEO</p>
+										</div>
+									</div>
+								</div>
+								<div class="team-box col-lg-3 col-md-6 col-sm-12">
+									<div class="imagebox">
+										<div class="team-background">
+											<img src="images/icon_overlay.svg">
+										</div>
+										<div class="team-photo">
+											<img src="images/hardik.png">
+										</div>
+									</div>	
+									<div class="candidate-name">
+										<h2>Hardik Jethva</h2>
+										<div class="candidate-position">
+											<p>Founder & CEO</p>
+										</div>
+									</div>
+								</div>
+								<div class="team-box col-lg-3 col-md-6 col-sm-12">
+									<div class="imagebox">
+										<div class="team-background">
+											<img src="images/icon_overlay.svg">
+										</div>
+										<div class="team-photo">
+											<img src="images/hardik.png">
+										</div>
+									</div>	
+									<div class="candidate-name">
+										<h2>Hardik Jethva</h2>
+										<div class="candidate-position">
+											<p>Founder & CEO</p>
+										</div>
+									</div>
+								</div>
+								<div class="team-box col-lg-3 col-md-6 col-sm-12">
+									<div class="imagebox">
+										<div class="team-background">
+											<img src="images/icon_overlay.svg">
+										</div>
+										<div class="team-photo">
+											<img src="images/hardik.png">
+										</div>
+									</div>	
+									<div class="candidate-name">
+										<h2>Hardik Jethva</h2>
+										<div class="candidate-position">
+											<p>Founder & CEO</p>
+										</div>
+									</div>
+								</div>
+								<div class="team-box col-lg-3 col-md-6 col-sm-12">
+									<div class="imagebox">
+										<div class="team-background">
+											<img src="images/icon_overlay.svg">
+										</div>
+										<div class="team-photo">
+											<img src="images/hardik.png">
+										</div>
+									</div>	
+									<div class="candidate-name">
+										<h2>Hardik Jethva</h2>
+										<div class="candidate-position">
+											<p>Founder & CEO</p>
+										</div>
+									</div>
+								</div>
+								<div class="team-box col-lg-3 col-md-6 col-sm-12">
+									<div class="imagebox">
+										<div class="team-background">
+											<img src="images/icon_overlay.svg">
+										</div>
+										<div class="team-photo">
+											<img src="images/hardik.png">
+										</div>
+									</div>	
+									<div class="candidate-name">
+										<h2>Hardik Jethva</h2>
+										<div class="candidate-position">
+											<p>Founder & CEO</p>
+										</div>
+									</div>
+								</div>
+								<div class="team-box col-lg-3 col-md-6 col-sm-12">
+									<div class="imagebox">
+										<div class="team-background">
+											<img src="images/icon_overlay.svg">
+										</div>
+										<div class="team-photo">
+											<img src="images/hardik.png">
+										</div>
+									</div>	
+									<div class="candidate-name">
+										<h2>Hardik Jethva</h2>
+										<div class="candidate-position">
+											<p>Founder & CEO</p>
+										</div>
+									</div>
+								</div>
+								<div class="team-box col-lg-3 col-md-6 col-sm-12">
+									<div class="imagebox">
+										<div class="team-background">
+											<img src="images/icon_overlay.svg">
+										</div>
+										<div class="team-photo">
+											<img src="images/hardik.png">
+										</div>
+									</div>	
+									<div class="candidate-name">
+										<h2>Hardik Jethva</h2>
+										<div class="candidate-position">
+											<p>Founder & CEO</p>
+										</div>
+									</div>
+								</div>
+								<div class="team-box col-lg-3 col-md-6 col-sm-12">
+									<div class="imagebox">
+										<div class="team-background">
+											<img src="images/icon_overlay.svg">
+										</div>
+										<div class="team-photo">
+											<img src="images/hardik.png">
+										</div>
+									</div>	
+									<div class="candidate-name">
+										<h2>Hardik Jethva</h2>
+										<div class="candidate-position">
+											<p>Founder & CEO</p>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="process">
+				<div class="container">
+					<div class="process-top">
+						<h1 class="h2">Process We Follow</h1>
+						<div class="line"></div>
+					</div>
+					<div class="process-details row">
+						<div class="process-left col-lg-5">
+							<div class="process-left-text">
+							<p>Eminent Coders Team Follows 8 Simple Steps Process for Designing and Developing a Website and Mobile Application.</p>
+							<ol>
+								<li><b>Research and Understanding:</b> Our team ensures collaboration with the clients and understands every single requirement of their project, including the scope, target audience, features, functionalities, and timeline.</li>
+								<li><b>Define Structure:</b> In this phase, a specialized team constructs a wireframe and prototypes for the website or app project, considering the client’s essential requirements. It entails working on user interface (UI) and user experience (UX) design, providing an aesthetically pleasing and user-friendly layout that reflects the client’s brand and the expectations of users.</li>
+								<li><b>Agile Planning:</b> Our team follows agile methodologies for developing websites and applications, emphasizing a more collaborative and responsive approach. They ensure that development efforts remain consistent with the client’s and users’ evolving needs, with continuous enhancements based on feedback and shifting priorities.</li>
+								<li><b>Group Discussion:</b>We often conduct a meeting gathering the developers, designers, project manager, and clients to discuss the progress of the project, uncover the potential challenges, identify priorities, define the scope of work, foster open communication and transparency to remain aligned with the evolving needs of clients and users.</li>
+								<li><b>Development Plan:</b>Once the design, features, and functionalities are approved, the developers begin programming the website’s and app’s front-end and back-end development. It incorporates a user interface, interactive elements, server-side functionality, databases, and other features.</li>
+								<li><b>Testing Process:</b> Our testing experts do rigorous analysis such as functional testing, usability testing, and compatibility testing to identify and resolve any bugs, errors, and variations. QA testing ensures websites or apps run flawlessly and rapidly across several devices and browsers.</li>
+								<li><b>Deployment:</b> The development team continuously monitors the website or app’s performance to find areas for improvement, minimize loading times, and answer any user input to improve the entire experience.</li>
+								<li><b>Deployment:</b> The development team continuously monitors the website or app’s performance to find areas for improvement, minimize loading times, and answer any user input to improve the entire experience.</li>
+							</ol>
+						</div>
+						</div>
+						<div class="process-right col-lg-7">
+							<div class="process-image">
+								<img src="images/follow-circle.png" class="follow-circle">
+								<div class="company-logo">
+									<img src="images/eminent-coder_logo.svg">
+								</div>
+							</div>
+							<div class="process-text">
+								<div class="process-text-list">
+									<div class="process-bar process-bar-1">
+										<span class="process-count">1</span>
+										<p>Research & <br>Understanding</p>
+									</div>
+									<div class="process-bar process-bar-2">
+										<span class="process-count">2</span>
+										<p>Define Structure</p>
+									</div>
+									<div class="process-bar process-bar-3">
+										<span class="process-count">3</span>
+										<p>Align Planing</p>
+									</div>
+									<div class="process-bar process-bar-4">
+										<span class="process-count">4</span>
+										<p>Group Discussion</p>
+									</div>
+									<div class="process-bar process-bar-5">
+										<span class="process-count">5</span>
+										<p>Development Plan</p>
+									</div>
+									<div class="process-bar process-bar-6">
+										<span class="process-count">6</span>
+										<p>Testing Process</p>
+									</div>
+									<div class="process-bar process-bar-7">
+										<span class="process-count">7</span>
+										<p>Deploy on Cloud</p>
+									</div>
+									<div class="process-bar process-bar-8">
+										<span class="process-count">8</span>
+										<p>Post delivery<br>Support</p>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<div class="google-meet">
+				<div class="container">
+					<div class="google-meet-inner d-flex flex-wrap">
+						<div class="google-meet-left d-flex">
+							<div class="icon"><img src="images/google-meet.png"></div>
+							<div class="google-meet-text">
+								<h1 class="h2">Don't want to fill up a form</h1>
+								<p>Block our calendar via Google Meet</p>
+							</div>
+						</div>
+						<div class="google-meet-right">
+							<a href="javascript:;">Contact<i class='fas fa-arrow-right'></i></a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+
+
+		<footer class="footer">
+			<div class="container">
+				<div class="footer-inner">
+					<div class="footer-top d-flex flex-wrap w-100 justify-content-between">
+						<div class="top-left">
+							<div class="footer-left-title">
+								<h2>India</h2>
+							</div>
+							<div class="footer-detail">
+								<ul>
+									<li><i class="fa-solid fa-location-dot"></i><span>920, 9th Floor RK Prime, Near Silver Heights, Nana Mauva Circle, Rajkot, Gujarat 360005</span></li>
+									<li><a href="#"><i class="fa-solid fa-phone"></i><span>+91-798-406-1517</span></a></li>
+									<li><a href="#"><i class="fa-solid fa-envelope"></i><span>jaiminsolanki0108@gmail.com</span></a></li>
+									<li><a href="#"><i class="fab fa-skype"></i><span>js.coder</span></a></li>
+								</ul>
+							</div>
+						</div>
+						<div class="top-right">
+							<div class="footer-left-title">
+								<h2>Newsletter</h2>
+							</div>
+							<div class="footer-right-text">
+								<p>Register now and receive interesting information about our news once a month.</p>
+								<div class="subscribe">
+									<input type="text" name="subcribe" placeholder="Your email address"><span><div class="btn subscribe-btn"><a href="#">SUBSCRIBE</a></div></span>
+								</div>
+							</div>							
+						</div>
+					</div>
+					<div class="footer-bottom">
+						<div class="footer-list d-flex flex-wrap">
+							<div class="footer-block company">
+								<div class="footer-block-title">
+									Company
+								</div>
+								<div class="company-nav">
+									<ul>
+										<li><a href="#">Home</a></li>
+										<li><a href="#">About US</a></li>
+										<li><a href="#">Career</a></li>
+										<li><a href="#">Services</a></li>
+										<li><a href="#">Hire Coders</a></li>
+										<li><a href="#">Portfolio</a></li>
+										<li><a href="#">Blog</a></li>
+										<li><a href="#">Contact Us</a></li>
+									</ul>
+								</div>
+							</div>
+							<div class="footer-block framwork">
+								<div class="footer-block-title">
+									Language Framework
+								</div>
+								<div class="company-nav">
+									<ul>
+										<li><a href="#">PHP Developer</a></li>
+										<li><a href="#">Wordpress Developer</a></li>
+										<li><a href="#">Magento Developer</a></li>
+										<li><a href="#">Node JS Development</a></li>
+										<li><a href="#">Web Development Edmonton</a></li>
+										<li><a href="#">Wordpress Development Toronto</a></li>
+										<li><a href="#">Wordpress Development Edmonton</a></li>
+										<li><a href="#">Web Development Toronto</a></li>
+										<li><a href="#">Magento Development Edmonton</a></li>
+										<li><a href="#">Magento Development Toronto</a></li>
+									</ul>
+								</div>
+							</div>
+							<div class="footer-block forntend-framework">
+								<div class="footer-block-title">
+									Frontend Framwork
+								</div>
+								<div class="company-nav">
+									<ul>
+										<li><a href="#">HTML Devlopment</a></li>
+										<li><a href="#">UI/UX Design and Redesign</a></li>
+										<li><a href="#">React JS Development</a></li>
+										<li><a href="#">Vue JS Development</a></li>
+										<li><a href="#">Web Design Edmonton</a></li>
+										<li><a href="#">Web Design Toronto</a></li>
+									</ul>
+								</div>
+							</div>
+							<div class="footer-block mobile">
+								<div class="footer-block-title">
+									Mobile Development
+								</div>
+								<div class="company-nav">
+									<ul>
+										<li><a href="#">iOS App Development</a></li>
+										<li><a href="#">Android App Development</a></li>
+										<li><a href="#">React Native Development</a></li>
+										<li><a href="#">Flutter Mobile Development</a></li>
+									</ul>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="copy-right-">
+				<div class="container">
+			<div class="copy-right d-flex justify-content-between align-items-center flex-wrap">
+				<div class="copy-right-left">
+					<p>© 2024 <strong>Eminent Coders.</strong> All Rights Reserved.<br> Leading WordPress & Magento Development Company.</p>
+				</div>
+				<div class="copy-right-right">
+					<div class="social-links d-flex align-items-end">
+						<ul class="d-flex">
+							<li><a href="#"><i class="fa-brands fa-facebook-f"></i></a></li>
+							<li><a href="#"><i class="fab fa-instagram"></i></a></li>
+							<li><a href="#"><i class="fa-brands fa-linkedin-in"></i></a></li>
+							<li><a href="#"><i class="fa-brands fa-twitter"></i></a></li>
+						</ul>
+					</div>
+				</div>
+			</div>
+			</div>
+			</div>
+		</footer>
+	</section>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+<script type="text/javascript" src="js/script.js"></script>
+
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

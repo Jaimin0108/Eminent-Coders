@@ -1,0 +1,399 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Eminent Coders</title>
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"/>
+	<!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/brands.min.css"/> -->
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+
+</head>
+<body>
+	<div class="wrapper">
+		<header class="header">
+			<div class="container">
+				<div class="header-inner d-flex align-items-center">
+					<div class="logo">
+						<a href="index.html">
+							<img src="images/eminent-coder_logo.svg">
+						</a>
+					</div>
+					<div class="header-menus ms-auto" id="menu">
+						<ul class="d-flex align-items-center" >
+							<li><a href="about.html">About Us</a></li>
+							<li id="Service"><a href="javascript:;" onclick="serviceMenu()">Services</a>
+								<div class="has-dropdown" id="has-dropdown">
+									<div class="container">
+										<div class="row service-has-dropdown">
+											<div class="has-dropdown-list has-frontend col-md-3">
+												<span>FRONTEND FRAMEWORK</span>
+												<ul>
+													<li><a href="javascript:;"><span><i class="fa-brands fa-html5"></i></span>HTML Development</a></li>
+													<li><a href="javascript:;"><span><i class="fa-brands fa-html5"></i></span>UI/UX Design and Redesign</a></li>
+													<li><a href="javascript:;"><span><i class="fa-brands fa-html5"></i></span>React JS Development</a></li>
+													<li><a href="javascript:;"><span><i class="fa-brands fa-html5"></i></span>Vue JS Development</a></li>
+												</ul>
+											</div>
+											<div class="has-dropdown-list has-language col-md-3">
+												<span>LANGUAGE FRAMEWORK</span>
+												<ul>
+													<li><a href="javascript:;"><span><i class="fa-brands fa-html5"></i></span>PHP Development</a></li>
+													<li><a href="javascript:;"><span><i class="fa-brands fa-html5"></i></span>Wordpress Design and Redesign</a></li>
+													<li><a href="javascript:;"><span><i class="fa-brands fa-html5"></i></span>Magento JS Development</a></li>
+													<li><a href="javascript:;"><span><i class="fa-brands fa-html5"></i></span>Node JS Development</a></li>
+												</ul>
+											</div>
+											<div class="has-dropdown-list has-mobile col-md-3">
+												<span>MOBILE FRAMEWORK</span>
+												<ul>
+													<li><a href="javascript:;"><span><i class="fa-brands fa-html5"></i></span>Android App Development</a></li>
+													<li><a href="javascript:;"><span><i class="fa-brands fa-html5"></i></span>IOS App Development</a></li>
+													<li><a href="javascript:;"><span><i class="fa-brands fa-html5"></i></span>React Native Development	</a></li>
+													<li><a href="javascript:;"><span><i class="fa-brands fa-html5"></i></span>Fultter Mobile Development</a></li>
+												</ul>
+											</div>
+											<div class="has-dropdown-list dropdown-img col-md-3">
+												<div class="has-close-btn" onclick="serviceMenu()"></div>
+												<img src="images/has-dropdown.svg">
+											</div>
+										</div>	
+									</div>
+								</div>
+							</li>
+							<li><a href="hire.html">Hire Coders</a></li>
+							<li><a href="Portfolio.html">Portfolio</a></li>
+							<li><a href="blog.html">Blog</a></li>
+							<li><a href="contact.html">Contact Us</a></li>
+						</ul>
+					</div>
+					<div class="mobile-toggle ms-auto" onclick="toggleMenu()">
+						<span></span>
+						<span></span>
+						<span></span>
+					</div>
+				</div>
+			</div>
+		</header>
+
+		<section class="content">
+			<div class="main-banner about-banner portfolio-banner">
+				<div class="container">
+					<div class="banner">
+						<div class="banner-text row">
+							<div class="about-left col-md-6">
+								<h1 class="h1">OUR PORTFOLIO</h1>
+								<div class="line"></div>
+								<div class="about-content">
+								<p>Our portfolio showcases a wide range of projects on which we have had the privilege to work. We have assisted businesses of all sizes in achieving their goals, from web design and development to branding and digital marketing. Each project reflects our commitment to excellence and our unwavering pursuit of perfection.</p>
+								<p>If you are looking to establish a new website for your business or enhance your online presence, our portfolio demonstrates our ability to deliver results. Join the ranks of satisfied clients who have chosen Eminent Coders as their partner in success.</p>
+								<p>Are you ready to begin your web design and development journey? Contact us today, and let's collaborate to create something extraordinary.</p>
+								<div class="btn start-project">
+									<a href="#">START A PROJECT</a>
+								</div>
+							</div>
+							</div>
+							<div class="about-right col-md-6">
+								<div class="about-banner-image d-flex flex-wrap">
+									<div class="image-box-circle">
+										<img src="images/portfolio.png">
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="banner-shape-square">
+						<img src="images/banner-shape-square.svg">
+					</div>
+					<div class="banner-shape-round">
+						<img src="images/banner-shape-circle.svg">
+					</div>
+					<div class="mouse text-center">
+						<a href="#eminent-text"><img src="images/mouse.svg"></a>
+					</div>
+				</div>
+			</div>
+			<div class="eminent-text" id="eminent-text">
+				<div class="container">
+					<img src="images/eminent.svg">
+				</div>	
+			</div>
+			<div class="portfolio-list w-100">
+				<div class="container">
+					<div class="portfolio-btn-list">
+						<div class="portfolio-btn">
+							<a href="#javascript:;">ALL</a>
+						</div>
+						<div class="portfolio-btn">
+							<a href="#javascript:;">WORDPRESS</a>
+						</div>
+						<div class="portfolio-btn">
+							<a href="#javascript:;">LARAVEL</a>
+						</div>
+						<div class="portfolio-btn">
+							<a href="#javascript:;">UX/UI DESIGN</a>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="portfolio-listing">
+				<div class="container">
+					<div class="row">
+						<div class="d-flex flex-wrap w-100">
+							<div class="col-md-6 portfolio-box">
+								<div class="portfolio-images">
+									<div class="wesite-images">
+							
+									</div>
+									<div class="desktop-image">
+										<img src="images/portfolio-desktop.png">
+									</div>	
+								</div>
+							</div>
+						</div>
+					</div>		
+				</div>
+			</div>
+
+
+		<div class="form">
+			<div class="container">
+				<div class="form-inner d-flex flex-wrap">
+					<div class="form-left">
+						<div class="form-left-text">
+							<h1>Let's <br>Make It Happen</h1>
+							<div class="line"></div>
+						</div>
+						<div class="plan">
+							<img src="images/consultation-graphic.png">
+						</div>
+					</div>
+					<div class="form-right">
+						<form>
+							<div class="who">
+								<p>Hello. I am</p>
+							</div>
+							<div class="name">
+								<input type="text" name="" placeholder="Firstname  Lastname">
+							</div>
+							<div class="looking">
+								<p>I am Looking for help with a</p>
+								<div class="help-opt d-flex flex-wrap">
+									<div class="help-btn d-flex align-items-center">
+										<input type="radio" name="help"><span>Web Design</span>
+									</div>
+									<div class="help-btn d-flex align-items-center">
+										<input type="radio" name="help"><span>Web Development</span>
+									</div>
+									<div class="help-btn d-flex align-items-center">
+										<input type="radio" name="help"><span>App Development</span>
+									</div>
+									<div class="help-btn d-flex align-items-center">
+										<input type="radio" name="help"><span>SEO</span>
+									</div>
+								</div>
+							</div>
+							<div class="other-details">
+								<div class="budget-detail d-flex flex-wrap">
+									<div class="budget">
+										<p>My Budget is</p>
+										<input type="text" name="dollars" placeholder="Dollars">
+									</div>
+									<div class="budget">
+										<p>And I need it done by</p>
+										<input type="date" name="date" placeholder="">
+									</div>
+									<div class="budget">
+										<p>Please Contact me at</p>
+										<input type="email" name="email" placeholder="Email Address">
+									</div>
+									<div class="budget">
+										<p>Phone</p>
+										<input type="Phone" name="phone" placeholder="xxx-xxx-xxxx">
+									</div>
+								</div>
+							</div>
+							<div class="submit">
+								<input type="checkbox" name="submit"><span>By submitting this form. I agree to Term of use</span>
+							</div>
+							<div class="send-mail">
+								<a href="javascript:;">SEND DETAILS</a>
+							</div>
+						</form>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		</section>	
+
+		<footer class="footer">
+			<div class="container">
+				<div class="footer-inner">
+					<div class="footer-top d-flex flex-wrap w-100 justify-content-between">
+						<div class="top-left">
+							<div class="footer-left-title">
+								<h2>India</h2>
+							</div>
+							<div class="footer-detail">
+								<ul>
+									<li><i class="fa-solid fa-location-dot"></i><span>920, 9th Floor RK Prime, Near Silver Heights, Nana Mauva Circle, Rajkot, Gujarat 360005</span></li>
+									<li><a href="#"><i class="fa-solid fa-phone"></i><span>+91-798-406-1517</span></a></li>
+									<li><a href="#"><i class="fa-solid fa-envelope"></i><span>jaiminsolanki0108@gmail.com</span></a></li>
+									<li><a href="#"><i class="fab fa-skype"></i><span>js.coder</span></a></li>
+								</ul>
+							</div>
+						</div>
+						<div class="top-right">
+							<div class="footer-left-title">
+								<h2>Newsletter</h2>
+							</div>
+							<div class="footer-right-text">
+								<p>Register now and receive interesting information about our news once a month.</p>
+								<div class="subscribe">
+									<input type="text" name="subcribe" placeholder="Your email address"><span><div class="btn subscribe-btn"><a href="#">SUBSCRIBE</a></div></span>
+								</div>
+							</div>							
+						</div>
+					</div>
+					<div class="footer-bottom">
+						<div class="footer-list d-flex flex-wrap">
+							<div class="footer-block company">
+								<div class="footer-block-title">
+									Company
+								</div>
+								<div class="company-nav">
+									<ul>
+										<li><a href="#">Home</a></li>
+										<li><a href="#">About US</a></li>
+										<li><a href="#">Career</a></li>
+										<li><a href="#">Services</a></li>
+										<li><a href="#">Hire Coders</a></li>
+										<li><a href="#">Portfolio</a></li>
+										<li><a href="#">Blog</a></li>
+										<li><a href="#">Contact Us</a></li>
+									</ul>
+								</div>
+							</div>
+							<div class="footer-block framwork">
+								<div class="footer-block-title">
+									Language Framework
+								</div>
+								<div class="company-nav">
+									<ul>
+										<li><a href="#">PHP Developer</a></li>
+										<li><a href="#">Wordpress Developer</a></li>
+										<li><a href="#">Magento Developer</a></li>
+										<li><a href="#">Node JS Development</a></li>
+										<li><a href="#">Web Development Edmonton</a></li>
+										<li><a href="#">Wordpress Development Toronto</a></li>
+										<li><a href="#">Wordpress Development Edmonton</a></li>
+										<li><a href="#">Web Development Toronto</a></li>
+										<li><a href="#">Magento Development Edmonton</a></li>
+										<li><a href="#">Magento Development Toronto</a></li>
+									</ul>
+								</div>
+							</div>
+							<div class="footer-block forntend-framework">
+								<div class="footer-block-title">
+									Frontend Framwork
+								</div>
+								<div class="company-nav">
+									<ul>
+										<li><a href="#">HTML Devlopment</a></li>
+										<li><a href="#">UI/UX Design and Redesign</a></li>
+										<li><a href="#">React JS Development</a></li>
+										<li><a href="#">Vue JS Development</a></li>
+										<li><a href="#">Web Design Edmonton</a></li>
+										<li><a href="#">Web Design Toronto</a></li>
+									</ul>
+								</div>
+							</div>
+							<div class="footer-block mobile">
+								<div class="footer-block-title">
+									Mobile Development
+								</div>
+								<div class="company-nav">
+									<ul>
+										<li><a href="#">iOS App Development</a></li>
+										<li><a href="#">Android App Development</a></li>
+										<li><a href="#">React Native Development</a></li>
+										<li><a href="#">Flutter Mobile Development</a></li>
+									</ul>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="copy-right-">
+				<div class="container">
+			<div class="copy-right d-flex justify-content-between align-items-center flex-wrap">
+				<div class="copy-right-left">
+					<p>© 2024 <strong>Eminent Coders.</strong> All Rights Reserved.<br> Leading WordPress & Magento Development Company.</p>
+				</div>
+				<div class="copy-right-right">
+					<div class="social-links d-flex align-items-end">
+						<ul class="d-flex">
+							<li><a href="#"><i class="fa-brands fa-facebook-f"></i></a></li>
+							<li><a href="#"><i class="fab fa-instagram"></i></a></li>
+							<li><a href="#"><i class="fa-brands fa-linkedin-in"></i></a></li>
+							<li><a href="#"><i class="fa-brands fa-twitter"></i></a></li>
+						</ul>
+					</div>
+				</div>
+			</div>
+			</div>
+			</div>
+		</footer>
+	</section>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+<script type="text/javascript" src="js/script.js"></script>
+
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
